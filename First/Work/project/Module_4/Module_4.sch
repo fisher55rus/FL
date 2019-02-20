@@ -15,45 +15,45 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Conn_01x08_Female J?
+L Connector:Conn_01x08_Female J2
 U 1 1 5C6C3E7A
 P 8900 8150
-F 0 "J?" H 8100 8075 50  0000 L CNN
+F 0 "J2" H 8100 8075 50  0000 L CNN
 F 1 "Conn_01x08_Female" H 7850 8000 50  0000 L CNN
-F 2 "" H 8900 8150 50  0001 C CNN
+F 2 "module_4:plc_x8" H 8900 8150 50  0001 C CNN
 F 3 "~" H 8900 8150 50  0001 C CNN
 	1    8900 8150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x10_Female J?
+L Connector:Conn_01x10_Female J3
 U 1 1 5C6C4183
 P 8900 9125
-F 0 "J?" H 8250 9075 50  0000 L CNN
+F 0 "J3" H 8250 9075 50  0000 L CNN
 F 1 "Conn_01x10_Female" H 7900 8950 50  0000 L CNN
-F 2 "" H 8900 9125 50  0001 C CNN
+F 2 "module_4:plc_x10" H 8900 9125 50  0001 C CNN
 F 3 "~" H 8900 9125 50  0001 C CNN
 	1    8900 9125
 	1    0    0    -1  
 $EndComp
 $Comp
-L MCU_Module:Arduino_Nano_v3.x A?
+L MCU_Module:Arduino_Nano_v3.x A2
 U 1 1 5C6C582B
 P 10550 8525
-F 0 "A?" H 10200 7550 50  0000 C CNN
+F 0 "A2" H 10200 7550 50  0000 C CNN
 F 1 "Arduino_Nano_v3.x" H 10150 7450 50  0000 C CNN
-F 2 "Module:Arduino_Nano" H 10700 7575 50  0001 L CNN
+F 2 "module_4:Arduino_Nano" H 10700 7575 50  0001 L CNN
 F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 10550 7525 50  0001 C CNN
 	1    10550 8525
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x20 J?
+L Connector_Generic:Conn_01x20 J1
 U 1 1 5C6C61D1
 P 7300 7150
-F 0 "J?" H 7220 8267 50  0000 C CNN
+F 0 "J1" H 7220 8267 50  0000 C CNN
 F 1 "Conn_01x20" H 7220 8176 50  0000 C CNN
-F 2 "" H 7300 7150 50  0001 C CNN
+F 2 "module_4:klemmnik_x20" H 7300 7150 50  0001 C CNN
 F 3 "~" H 7300 7150 50  0001 C CNN
 	1    7300 7150
 	-1   0    0    -1  
@@ -224,23 +224,23 @@ NoConn ~ 8700 8050
 NoConn ~ 8700 7950
 NoConn ~ 8700 7850
 $Comp
-L Connector:Conn_01x08_Female J?
+L Connector:Conn_01x08_Female J5
 U 1 1 5C6DE352
 P 12200 8975
-F 0 "J?" H 11400 8900 50  0000 L CNN
+F 0 "J5" H 11400 8900 50  0000 L CNN
 F 1 "Conn_01x08_Female" H 11150 8825 50  0000 L CNN
-F 2 "" H 12200 8975 50  0001 C CNN
+F 2 "module_4:plc_x8" H 12200 8975 50  0001 C CNN
 F 3 "~" H 12200 8975 50  0001 C CNN
 	1    12200 8975
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x06_Female J?
+L Connector:Conn_01x06_Female J4
 U 1 1 5C6DFC15
 P 12200 8025
-F 0 "J?" H 12094 8410 50  0000 C CNN
+F 0 "J4" H 12094 8410 50  0000 C CNN
 F 1 "Conn_01x06_Female" H 12094 8319 50  0000 C CNN
-F 2 "" H 12200 8025 50  0001 C CNN
+F 2 "module_4:plc_x6" H 12200 8025 50  0001 C CNN
 F 3 "~" H 12200 8025 50  0001 C CNN
 	1    12200 8025
 	-1   0    0    -1  
@@ -281,4 +281,89 @@ Wire Wire Line
 	7500 6550 7725 6550
 Text Label 7725 6550 0    50   ~ 0
 gnd
+$Comp
+L Module_4:ZS-042_RTC1 A3
+U 1 1 5C6DA5A2
+P 11550 6250
+F 0 "A3" H 11550 6765 50  0000 C CNN
+F 1 "ZS-042_RTC1" H 11550 6674 50  0000 C CNN
+F 2 "" H 11150 5800 50  0001 C CNN
+F 3 "" H 11150 5800 50  0001 C CNN
+	1    11550 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11050 6300 10825 6300
+Text Label 10825 6300 2    50   ~ 0
+a4
+Wire Wire Line
+	11050 6200 10825 6200
+Text Label 10825 6200 2    50   ~ 0
+a5
+Wire Wire Line
+	7500 6750 7725 6750
+Text Label 7725 6750 0    50   ~ 0
+a4
+Wire Wire Line
+	7500 6650 7725 6650
+Text Label 7725 6650 0    50   ~ 0
+a5
+Wire Wire Line
+	11050 6400 10825 6400
+Text Label 10825 6400 2    50   ~ 0
+5v
+Wire Wire Line
+	11050 6500 10825 6500
+Text Label 10825 6500 2    50   ~ 0
+gnd
+NoConn ~ 11050 6000
+NoConn ~ 11050 6100
+NoConn ~ 12050 6100
+NoConn ~ 12050 6200
+NoConn ~ 12050 6300
+NoConn ~ 12050 6400
+$Comp
+L Module_4:ReoRand_LM2596 A1
+U 1 1 5C6F0095
+P 8925 5975
+F 0 "A1" H 8925 6390 50  0000 C CNN
+F 1 "ReoRand_LM2596" H 8925 6299 50  0000 C CNN
+F 2 "" H 8775 7075 50  0001 C CNN
+F 3 "" H 8775 7075 50  0001 C CNN
+	1    8925 5975
+	1    0    0    -1  
+$EndComp
+Text Label 9625 5825 0    50   ~ 0
+vin
+Wire Wire Line
+	9375 5825 9625 5825
+Wire Wire Line
+	9375 6125 9600 6125
+Text Label 9600 6125 0    50   ~ 0
+gnd
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5C6FC1D8
+P 8000 5825
+F 0 "SW1" H 8000 6110 50  0000 C CNN
+F 1 "SW_Push" H 8000 6019 50  0000 C CNN
+F 2 "" H 8000 6025 50  0001 C CNN
+F 3 "" H 8000 6025 50  0001 C CNN
+	1    8000 5825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 6350 8475 6350
+Wire Wire Line
+	8475 6350 8475 6125
+Wire Wire Line
+	7800 6250 7500 6250
+Wire Wire Line
+	7800 5825 7800 6250
+Wire Wire Line
+	8200 5825 8475 5825
+Text Label 8275 5825 0    50   ~ 0
+In+
+Text Label 8275 6350 0    50   ~ 0
+In-
 $EndSCHEMATC
