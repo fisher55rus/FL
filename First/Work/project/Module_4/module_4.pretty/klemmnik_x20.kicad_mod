@@ -1,5 +1,5 @@
-(module klemmnik_x20 (layer F.Cu) (tedit 5C6DAFCB)
-  (fp_text reference REF** (at 0 -83.185) (layer F.SilkS)
+(module klemmnik_x20 (layer F.Cu) (tedit 5C6E4BC7)
+  (fp_text reference REF** (at 0 -85.09) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value klemmnik_x20 (at 0 3.31) (layer F.Fab)

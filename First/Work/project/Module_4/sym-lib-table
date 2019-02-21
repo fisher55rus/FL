@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name Module_4)(type Legacy)(uri D:/GIT/FL/First/Work/project/Module_4/Module_4.lib)(options "")(descr ""))
+  (lib (name Module_4-rescue)(type Legacy)(uri ${KIPRJMOD}/Module_4-rescue.lib)(options "")(descr ""))
 )
