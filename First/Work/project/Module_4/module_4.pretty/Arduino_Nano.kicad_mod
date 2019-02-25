@@ -1,4 +1,4 @@
-(module Arduino_Nano (layer F.Cu) (tedit 5C6D981B)
+(module Arduino_Nano (layer F.Cu) (tedit 5C6F91C9)
   (descr "Arduino Nano, http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf")
   (tags "Arduino Nano")
   (fp_text reference REF** (at 7.62 -5.08) (layer F.SilkS)
@@ -66,6 +66,8 @@
   (pad 30 thru_hole oval (at 15.24 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
   (pad 15 thru_hole oval (at 0 35.56) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
   (pad 16 thru_hole oval (at 15.24 35.56) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
+  (pad "" thru_hole oval (at 0 38.1) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
+  (pad "" thru_hole oval (at 15.24 38.1) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
   (model "${KIPRJMOD}/module_4.pretty/arduino nano.STEP"
     (offset (xyz 0 0 2.65))
     (scale (xyz 1 1 1))
