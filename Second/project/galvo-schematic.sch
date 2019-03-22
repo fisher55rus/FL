@@ -15,8 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	3200 7500 3550 7500
-Wire Wire Line
 	10900 3600 10800 3600
 Text Label 10800 3600 2    70   ~ 0
 ILDAX-15V
@@ -52,15 +50,8 @@ Connection ~ 6400 3800
 Text Label 9100 4700 0    70   ~ 0
 ILDAX+15V
 Wire Wire Line
-	7500 7100 7500 6800
-Wire Wire Line
-	7500 6800 6900 6800
-Wire Wire Line
-	8300 6000 8300 7100
-Wire Wire Line
-	8300 7100 7500 7100
-Connection ~ 7500 7100
-Text Label 7200 6800 0    70   ~ 0
+	6900 6350 6900 6800
+Text Label 6900 6350 1    70   ~ 0
 +V15
 Wire Wire Line
 	5900 3300 5900 2800
@@ -72,27 +63,12 @@ Wire Wire Line
 	5900 3300 7000 3300
 Wire Wire Line
 	7000 3300 7000 1600
-Wire Wire Line
-	5900 3500 5900 3300
-Connection ~ 5900 3300
 Text Label 5550 2800 0    70   ~ 0
 +V15
 Wire Wire Line
 	7500 1500 7500 1600
 Text Label 7500 1600 3    70   ~ 0
 +V15
-Wire Wire Line
-	7500 7700 8100 7700
-Wire Wire Line
-	8100 7700 8100 6000
-Text Label 8100 6000 1    70   ~ 0
--V15
-Wire Wire Line
-	6800 4100 6800 1600
-Wire Wire Line
-	5900 4100 6800 4100
-Text Label 6800 1600 1    70   ~ 0
--V15
 Wire Wire Line
 	7900 1500 7900 1600
 Text Label 7900 1600 3    70   ~ 0
@@ -137,8 +113,6 @@ Wire Wire Line
 Text Label 2550 4450 0    70   ~ 0
 GND
 Wire Wire Line
-	8200 6000 8200 7200
-Wire Wire Line
 	8200 7200 8200 8300
 Wire Wire Line
 	8200 8300 8200 8500
@@ -147,9 +121,6 @@ Wire Wire Line
 Wire Wire Line
 	9100 7200 8200 7200
 Connection ~ 8200 8300
-Text Label 8200 6000 1    70   ~ 0
-GND
-Connection ~ 8200 7200
 Text Label 8200 8500 3    70   ~ 0
 GND
 Wire Wire Line
@@ -341,39 +312,6 @@ F 3 "" H 9400 8000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L galvo-schematic-eagle-import:TL082P IC1
-U 1 0 22F7723E
-P 7500 7400
-F 0 "IC1" H 7600 7525 59  0001 L BNN
-F 1 "TL082P" H 7600 7200 59  0001 L BNN
-F 2 "galvo-schematic:DIL08" H 7500 7400 50  0001 C CNN
-F 3 "" H 7500 7400 50  0001 C CNN
-	1    7500 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L galvo-schematic-eagle-import:TL082P IC1
-U 2 0 22F77232
-P 9400 7300
-F 0 "IC1" H 9500 7425 59  0001 L BNN
-F 1 "TL082P" H 9500 7100 59  0001 L BNN
-F 2 "galvo-schematic:DIL08" H 9400 7300 50  0001 C CNN
-F 3 "" H 9400 7300 50  0001 C CNN
-	2    9400 7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L galvo-schematic-eagle-import:TL082P IC1
-U 3 0 22F77236
-P 7500 7400
-F 0 "IC1" H 7600 7525 59  0001 L BNN
-F 1 "TL082P" H 7600 7200 59  0001 L BNN
-F 2 "galvo-schematic:DIL08" H 7500 7400 50  0001 C CNN
-F 3 "" H 7500 7400 50  0001 C CNN
-	3    7500 7400
-	1    0    0    -1  
-$EndComp
-$Comp
 L galvo-schematic-eagle-import:R-EU_0207_10 R5
 U 1 0 4373A00B
 P 4800 3900
@@ -437,39 +375,6 @@ F 1 "10k" H 8050 4270 59  0000 L BNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8200 4400 50  0001 C CNN
 F 3 "" H 8200 4400 50  0001 C CNN
 	1    8200 4400
-	1    0    0    -1  
-$EndComp
-$Comp
-L galvo-schematic-eagle-import:TL082P IC2
-U 1 0 BC34DC86
-P 5900 3800
-F 0 "IC2" H 6000 3925 59  0001 L BNN
-F 1 "TL082P" H 6000 3600 59  0001 L BNN
-F 2 "galvo-schematic:DIL08" H 5900 3800 50  0001 C CNN
-F 3 "" H 5900 3800 50  0001 C CNN
-	1    5900 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L galvo-schematic-eagle-import:TL082P IC2
-U 2 0 BC34DC8A
-P 8200 3700
-F 0 "IC2" H 8300 3825 59  0001 L BNN
-F 1 "TL082P" H 8300 3500 59  0001 L BNN
-F 2 "galvo-schematic:DIL08" H 8200 3700 50  0001 C CNN
-F 3 "" H 8200 3700 50  0001 C CNN
-	2    8200 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L galvo-schematic-eagle-import:TL082P IC2
-U 3 0 BC34DC8E
-P 5900 3800
-F 0 "IC2" H 6000 3925 59  0001 L BNN
-F 1 "TL082P" H 6000 3600 59  0001 L BNN
-F 2 "galvo-schematic:DIL08" H 5900 3800 50  0001 C CNN
-F 3 "" H 5900 3800 50  0001 C CNN
-	3    5900 3800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -628,17 +533,13 @@ F 3 "" H 7900 1300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6800 8500 7200 8500
-Text Label 7000 1600 1    70   ~ 0
-+V15
-Text Label 8300 6000 1    70   ~ 0
-+V15
 NoConn ~ 7500 6300
 NoConn ~ 5900 2200
 $Comp
-L Analog_DAC:MCP4822 DAC
+L Analog_DAC:MCP4822 U2
 U 1 1 5C94B8C6
 P 2550 3900
-F 0 "DAC" H 2150 4400 50  0000 C CNN
+F 0 "U2" H 2150 4400 50  0000 C CNN
 F 1 "MCP4822" H 2250 4300 50  0000 C CNN
 F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 3350 3600 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20002249B.pdf" H 3350 3600 50  0001 C CNN
@@ -655,7 +556,72 @@ Wire Wire Line
 	3050 4100 3550 4100
 Wire Wire Line
 	3550 4100 3550 7500
-Connection ~ 3550 7500
 Wire Wire Line
 	3550 7500 6200 7500
+$Comp
+L Amplifier_Operational:TL084 U1
+U 1 1 5C955528
+P 5900 3800
+F 0 "U1" H 5725 4150 50  0000 C CNN
+F 1 "TL084IPT" H 5725 4075 50  0000 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 5850 3900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 5950 4000 50  0001 C CNN
+	1    5900 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL084 U1
+U 2 1 5C9556F9
+P 8200 3700
+F 0 "U1" H 8200 4067 50  0000 C CNN
+F 1 "TL084IPT" H 8200 3976 50  0000 C CNN
+F 2 "" H 8150 3800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 8250 3900 50  0001 C CNN
+	2    8200 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL084 U1
+U 3 1 5C955911
+P 7500 7400
+F 0 "U1" H 7500 7767 50  0000 C CNN
+F 1 "TL084IPT" H 7500 7676 50  0000 C CNN
+F 2 "" H 7450 7500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 7550 7600 50  0001 C CNN
+	3    7500 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL084 U1
+U 4 1 5C95598A
+P 9400 7300
+F 0 "U1" H 9400 7667 50  0000 C CNN
+F 1 "TL084IPT" H 9400 7576 50  0000 C CNN
+F 2 "" H 9350 7400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 9450 7500 50  0001 C CNN
+	4    9400 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL084 U1
+U 5 1 5C959962
+P 6000 3800
+F 0 "U1" H 6000 3650 50  0001 L CNN
+F 1 "TL084IPT" H 6000 3550 50  0001 L CNN
+F 2 "" H 5950 3900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 6050 4000 50  0001 C CNN
+	5    6000 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 4100 6800 1600
+Wire Wire Line
+	5900 4100 6800 4100
+Connection ~ 5900 3300
+Wire Wire Line
+	5900 3500 5900 3300
+Text Label 6800 1600 1    70   ~ 0
+-V15
+Text Label 7000 1600 1    70   ~ 0
++V15
 $EndSCHEMATC
